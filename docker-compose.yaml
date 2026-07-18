@@ -107,6 +107,39 @@ services:
   #       - "8888:80"   # opcional: só se você quiser acessar do seu navegador também
   #     restart: unless-stopped
 
+  git-updater:
+    image: alpine/git:latest
+    container_name: airflow-git-updater
+    working_dir: /repo
+    user: "${GIT_UPDATER_UID:-1000}:${GIT_UPDATER_GID:-1000}"
+    entrypoint: ["/bin/sh", "-c"]
+    environment:
+      GIT_UPDATER_INTERVAL_SECONDS: ${GIT_UPDATER_INTERVAL_SECONDS:-300}
+      GIT_UPDATER_REMOTE: ${GIT_UPDATER_REMOTE:-origin}
+      GIT_UPDATER_BRANCH: ${GIT_UPDATER_BRANCH:-main}
+    volumes:
+      - .:/repo
+    command:
+      - |
+        while true; do
+          echo "$$(date '+%Y-%m-%dT%H:%M:%S%z') - Verificando atualizacoes do repositorio"
+
+          if changes="$$(git -c safe.directory=/repo status --porcelain --untracked-files=no 2>&1)"; then
+            if [ -n "$$changes" ]; then
+              echo "$$(date '+%Y-%m-%dT%H:%M:%S%z') - Pull ignorado: existem alteracoes locais"
+            else
+              git -c safe.directory=/repo pull --ff-only \
+                "$${GIT_UPDATER_REMOTE}" "$${GIT_UPDATER_BRANCH}" \
+                || echo "$$(date '+%Y-%m-%dT%H:%M:%S%z') - Falha durante o git pull"
+            fi
+          else
+            echo "$$(date '+%Y-%m-%dT%H:%M:%S%z') - Falha ao verificar o repositorio: $$changes"
+          fi
+
+          sleep "$${GIT_UPDATER_INTERVAL_SECONDS}"
+        done
+    restart: unless-stopped
+
   webhook-tester:
     image: tarampampam/webhook-tester:2
     container_name: mock-control-shop

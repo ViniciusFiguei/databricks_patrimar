@@ -15,6 +15,10 @@ MOEDAS = {
     "GTQ": "Quetzal da Guatemala",
     "MXN": "Peso mexicano",
     "AUD": "Dólar australiano",
+    "ARS": "Peso argentino",
+    "COP": "Peso colombiano",
+    "PEN": "Sol peruano",
+    "CLP": "Peso chileno",
 }
 LARGURA_LOG = 66
 LOGGER = logging.getLogger(__name__)
