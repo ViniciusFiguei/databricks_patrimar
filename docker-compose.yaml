@@ -124,7 +124,7 @@ services:
         while true; do
           echo "$$(date '+%Y-%m-%dT%H:%M:%S%z') - Verificando atualizacoes do repositorio"
 
-          if changes="$$(git -c safe.directory=/repo status --porcelain --untracked-files=no -- . ':(exclude).env' 2>&1)"; then
+          if changes="$$(git -c safe.directory=/repo status --porcelain --untracked-files=no 2>&1)"; then
             if [ -n "$$changes" ]; then
               echo "$$(date '+%Y-%m-%dT%H:%M:%S%z') - Pull ignorado: existem alteracoes locais"
             else
