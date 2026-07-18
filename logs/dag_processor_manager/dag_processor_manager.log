@@ -1696,3 +1696,183 @@ File Path                                 PID    Runtime      # DAGs    # Errors
 /opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.10s           2026-07-18T01:20:35                      12
 ================================================================================
 [2026-07-18T01:20:45.751+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:20:45.769+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:21:01.015+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:21:01.034+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:21:11.179+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.11s           2026-07-18T01:21:06                      12
+================================================================================
+[2026-07-18T01:21:16.206+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:21:16.228+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:21:31.486+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:21:31.529+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:21:41.655+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.11s           2026-07-18T01:21:36                      12
+================================================================================
+[2026-07-18T01:21:46.682+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:21:46.697+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:22:01.990+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:22:02.012+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:22:12.154+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.09s           2026-07-18T01:22:07                      12
+================================================================================
+[2026-07-18T01:22:17.183+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:22:17.204+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:22:32.413+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:22:32.433+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:22:42.566+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.11s           2026-07-18T01:22:37                      12
+================================================================================
+[2026-07-18T01:22:47.595+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:22:47.611+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:23:02.881+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:23:02.906+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:23:13.036+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.10s           2026-07-18T01:23:08                      12
+================================================================================
+[2026-07-18T01:23:18.064+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:23:18.087+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:23:33.367+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:23:33.388+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:23:43.522+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.09s           2026-07-18T01:23:38                      12
+================================================================================
+[2026-07-18T01:23:48.548+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:23:48.565+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:24:03.849+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:24:03.870+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:24:13.942+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           0           1  0.07s           2026-07-18T01:24:04                       3
+================================================================================
+[2026-07-18T01:24:19.033+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:24:19.049+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:24:34.181+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:24:34.201+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:24:44.284+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           0           1  0.07s           2026-07-18T01:24:35                       5
+================================================================================
+[2026-07-18T01:24:49.385+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:24:49.404+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:25:04.578+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:25:04.609+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:25:14.702+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           0           1  0.05s           2026-07-18T01:25:05                       5
+================================================================================
+[2026-07-18T01:25:19.764+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:25:19.784+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:25:35.211+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:25:35.237+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:25:45.348+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.08s           2026-07-18T01:25:44                      11
+================================================================================
+[2026-07-18T01:25:50.373+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:25:50.388+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:26:05.578+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:26:05.598+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:26:15.722+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.11s           2026-07-18T01:26:14                      12
+================================================================================
+[2026-07-18T01:26:20.759+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:26:20.777+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:26:35.968+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:26:35.984+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:26:46.134+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.22s           2026-07-18T01:26:45                      12
+================================================================================
+[2026-07-18T01:26:51.165+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:26:51.185+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:27:06.694+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:27:06.711+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:27:16.973+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.09s           2026-07-18T01:27:16                      12
+================================================================================
+[2026-07-18T01:27:22.003+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:27:22.023+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:27:37.264+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:27:37.284+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:27:47.413+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.09s           2026-07-18T01:27:46                      12
+================================================================================
+[2026-07-18T01:27:52.448+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:27:52.467+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:28:07.659+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-18T01:28:07.678+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-07-18T01:28:17.774+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cotacoes_moedas_dag.py                           1           0  0.10s           2026-07-18T01:28:16                      12
+================================================================================
+[2026-07-18T01:28:22.800+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags

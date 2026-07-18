@@ -1,0 +1,34 @@
+[2026-07-18T01:25:24.877+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-07-18T01:25:24.890+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cotacoes_moedas.consultar_cotacoes scheduled__2026-07-18T01:20:00+00:00 [queued]>
+[2026-07-18T01:25:24.896+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cotacoes_moedas.consultar_cotacoes scheduled__2026-07-18T01:20:00+00:00 [queued]>
+[2026-07-18T01:25:24.897+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2026-07-18T01:25:24.906+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): consultar_cotacoes> on 2026-07-18 01:20:00+00:00
+[2026-07-18T01:25:24.911+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=418) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-07-18T01:25:24.912+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'cotacoes_moedas', 'consultar_cotacoes', 'scheduled__2026-07-18T01:20:00+00:00', '--job-id', '626', '--raw', '--subdir', 'DAGS_FOLDER/cotacoes_moedas_dag.py', '--cfg-path', '/tmp/tmp9tg4u_uc']
+[2026-07-18T01:25:24.914+0000] {standard_task_runner.py:72} INFO - Started process 419 to run task
+[2026-07-18T01:25:24.914+0000] {standard_task_runner.py:105} INFO - Job 626: Subtask consultar_cotacoes
+[2026-07-18T01:25:24.954+0000] {task_command.py:467} INFO - Running <TaskInstance: cotacoes_moedas.consultar_cotacoes scheduled__2026-07-18T01:20:00+00:00 [running]> on host 4a9e1e1e5999
+[2026-07-18T01:25:25.018+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data' AIRFLOW_CTX_DAG_ID='cotacoes_moedas' AIRFLOW_CTX_TASK_ID='consultar_cotacoes' AIRFLOW_CTX_EXECUTION_DATE='2026-07-18T01:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-07-18T01:20:00+00:00'
+[2026-07-18T01:25:25.020+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-07-18T01:25:25.201+0000] {cotacoes_moedas_dag.py:87} INFO - 
+==================================================================
+                COTAÇÕES DE MOEDAS EM REAIS (BRL)                 
+==================================================================
+MOEDA                            CÓDIGO                      VALOR
+------------------------------------------------------------------
+Dólar americano                   USD                    R$ 5.1030
+Quetzal da Guatemala              GTQ                    R$ 0.6666
+Peso mexicano                     MXN                    R$ 0.2920
+Dólar australiano                 AUD                    R$ 3.5544
+------------------------------------------------------------------
+Atualização: 17/07/2026 21:02:32
+Fonte: https://www.exchangerate-api.com
+==================================================================
+[2026-07-18T01:25:25.202+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-07-18T01:25:25.213+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-07-18T01:25:25.214+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=cotacoes_moedas, task_id=consultar_cotacoes, run_id=scheduled__2026-07-18T01:20:00+00:00, execution_date=20260718T012000, start_date=20260718T012524, end_date=20260718T012525
+[2026-07-18T01:25:25.250+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-07-18T01:25:25.262+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-07-18T01:25:25.265+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
