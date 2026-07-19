@@ -1,1 +1,1 @@
-"""Funções auxiliares compartilhadas pelas DAGs."""
+"""Funções reutilizáveis pelas DAGs do projeto."""
